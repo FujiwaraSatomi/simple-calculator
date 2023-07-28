@@ -5,11 +5,7 @@ CUIで動くシンプルな計算機
 ## setup
 ```
 > git clone https://github.com/Yukinyaaa/simple-calculator.git
-```
-```
 > cd simple-calculator
-```
-```
 simple-calculator> node index
 ```
 
@@ -39,4 +35,10 @@ simple-calculator> node index
 > undefined
 < ? (a + b) * 10
 > 300
+```
+
+## disorganization
+```
+> cd ..
+> rd simple-calculator /s /q
 ```
