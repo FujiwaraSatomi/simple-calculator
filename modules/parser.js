@@ -80,7 +80,7 @@ export default class Parser {
         }
         let res;
         function err() {
-            res = "> Error";
+            res = "Error";
         }
         function checkToken(tk) {
             let match = token.kind != tk;
@@ -150,7 +150,7 @@ export default class Parser {
             let d1 = pop();
 
             if(op == Kind.Divi && d2 == 0) {
-                res = "> Cannot divided by 0";
+                res = "Cannot divided by 0";
                 return;
             }
             switch(op) {
@@ -173,7 +173,7 @@ export default class Parser {
         }
         function pop() {
             if(stack.length < 1) {
-                res = "> Stack underflow";
+                res = "Stack underflow";
                 return;
             }
             return stack.pop();
