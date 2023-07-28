@@ -1,5 +1,7 @@
 # simple-calculator
 
+CUIで動くシンプルな計算機
+
 ## setup
 ```
 > git clone https://github.com/Yukinyaaa/simple-calculator.git
