@@ -4,7 +4,7 @@ CUIで動くシンプルな計算機
 
 ## setup
 ```
-> git clone https://github.com/Yukinyaaa/simple-calculator.git
+> git clone --depth=1 https://github.com/Yukinyaaa/simple-calculator.git
 > cd simple-calculator
 simple-calculator> node index
 ```
